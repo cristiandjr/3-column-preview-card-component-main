@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;700&family=Lexend+Deca:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 0.938rem;
+    font-family: "Lexend Deca", sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.container {
+    margin: 60px auto;
+    width: 70%;
+    height: 30;
+    display: flex;
+    border-radius: 0.625rem;
+    overflow: hidden;
+}
+.colunm {
+    flex: 0 1 50%;
+    height: 31.25rem;
+    padding: 2.813rem;
+    text-align: left;
+}
+.colunm h2 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.colunm p {
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+}
+.colunm button {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.9375rem;
+    border: 2px solid hsl(0, 0%, 100%, 0.75);
+    width: 9.25rem;
+    height: 2.875rem;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    letter-spacing: 0.063rem;
+}
+.colunm button:hover {
+    transition: .3s ease-in-out;
+    border: 2px solid hsl(0, 0%, 100%, 0.75);
+    background-color: transparent;
+    color: white;
+}
+.orange-btn {
+    color: hsl(31, 77%, 52%);
+}
+.orange-btn:hover {
+    color: hsl(31, 77%, 52%);
+}
+.cyan-btn {
+    color: hsl(184, 100%, 22%);
+}
+.cyan-btn:hover {
+    color: hsl(184, 100%, 22%);
+}
+.dark-btn {
+    color: hsl(179, 100%, 13%);
+}
+.dark-btn:hover {
+    color: hsl(179, 100%, 13%);
+}
+.orange {
+    background-color: hsl(31, 77%, 52%);
+}
+.cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+.dark {
+    background-color: hsl(179, 100%, 13%);
+}
+@media (max-width: 375px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+}
